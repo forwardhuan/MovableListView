@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MenuTextStyle">
+        <item name="android:background">@drawable/memu_bg_selector</item>
+        <item name="android:paddingLeft">@dimen/menu_item_space</item>
+        <item name="android:paddingRight">@dimen/menu_item_space</item>
+        <item name="android:paddingTop">@dimen/padding_five</item>
+        <item name="android:paddingBottom">@dimen/padding_five</item>
+        <item name="android:textSize">@dimen/common_text_size</item>
+        <item name="android:textColor">@drawable/menu_text_color_selector</item>
+    </style>
+</resources>
